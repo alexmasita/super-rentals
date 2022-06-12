@@ -8,5 +8,5 @@ import { start } from 'ember-qunit';
 setApplication(Application.create(config.APP));
 
 setup(QUnit.assert);
-
+QUnit.config.testTimeout = 60000;
 start();
